@@ -1,0 +1,84 @@
+#Speciality {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 10%;
+}
+
+#Speciality > h3 {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 120%;
+  text-align: center;
+  color: #040522;
+  margin: 20px 0;
+}
+
+#Speciality > p {
+  width: 80%;
+  height: 26px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  text-align: center;
+  color: #040522;
+  opacity: 0.7;
+}
+
+.showSpeciality {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 70px 0;
+  gap: 40px;
+  margin: auto;
+}
+
+.showSpeciality > div {
+  width: 300px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 40px;
+  transition: all .3s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+}
+
+.showSpeciality > div:hover{
+  box-shadow: 5px 5px 15px #0000001e;
+  transition: all .3s ease-in-out;
+}
+
+.showSpeciality > div > span {
+  width: 50px;
+  height: 50px;
+  background: #171ee53e;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 50px 0;
+}
+
+.showSpeciality > div > h4 {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 140%;
+  color: #040522;
+  margin-bottom: 15px;
+}
+
+.showSpeciality > div > p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+    color: #040522;
+    opacity: 0.7;
+}

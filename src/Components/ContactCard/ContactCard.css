@@ -1,0 +1,60 @@
+#ContactCard_header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5% 10%;
+    background: #ffffff;
+    font-family: "Gill Sans", sans-serif;
+}
+
+
+#Card_Contact {
+    width: 850px;
+    height: 700px;
+    background-color: #83E1FD;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 11% 0;
+    position: absolute;
+    top: 0;
+    margin-top: 250px;
+}
+
+#Card_Contact>h1 {
+    font-size: 60px;
+    color: #062B77;
+}
+
+
+
+#Card_Contact_items {
+    display: flex;
+    flex-direction: column;
+    padding-top: 3%;
+}
+
+#Card_Contact_items>input {
+    width: 532px;
+    height: 40px;
+    margin-top: 20px;
+    border: none;
+    padding: 0 2%;
+}
+
+#Card_Contact_items>textarea {
+    margin-top: 30px;
+    border: none;
+}
+
+#Card_Contact>button {
+    width: 140px;
+    padding: 1.5% 0;
+    margin-top: 30px;
+    color: #062B77;
+    font-weight: 600;
+    border: 1px solid #ffffff;
+    background: none;
+    font-size: 17px;
+}

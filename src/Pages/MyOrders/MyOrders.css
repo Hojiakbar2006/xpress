@@ -1,0 +1,102 @@
+#MyOrders_header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5% 10%;
+    background: #ffffff;
+    font-family: "Gill Sans", sans-serif;
+}
+
+
+#MyOrders_contact{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 2%; 
+    padding-left: 25%;    
+
+}
+
+#MyOrders_contact >input{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px 0 0 0;
+    border: none;
+    background: #c9f9f8;
+    padding: 0 4%;
+    font-weight: 600;
+}
+
+#MyOrders_contact >button{
+    width: 40px;
+    height: 40px;
+    background: #c9f9f8;
+    border: none;
+    border-left: 2px solid;
+    border-radius: 0 5px 0 0;
+}
+
+#OrderCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5% 0;
+}
+
+
+
+#OrderCard_Items{
+    width: 600px;
+    height: 100px;
+    background-color: #c9f9f8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 58px;
+    padding: 2% 0;
+    border-radius: 5px;
+}  
+
+#OrderCard_Items >img{
+    width: 70px;
+    height: 75px;
+    background-color: #ffffff;
+}
+
+.OrderCard_Items_titles {
+    display: flex;
+    flex-direction: column;
+}
+
+.OrderCard_Items_titles >p{
+    margin-top: 5px;
+}
+
+#OrderCard_Items_confirm{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+#OrderCard_Items_confirm >:first-child{
+    width: 130px;
+    height: 20px;
+    background: #F44336;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+}
+
+
+#OrderCard_Items_confirm >:last-child{
+    width: 60px;
+    height: 20px;
+    background: #2196F3;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+}

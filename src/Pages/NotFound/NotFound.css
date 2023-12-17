@@ -1,0 +1,26 @@
+#notFound{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#notFound>figure{
+    width: 100%;
+    position: relative;
+}
+
+#notFound>figure>h1{
+    position: absolute;
+    left:6%;
+    top:25%;
+    font-size: 500%;
+    color: rgb(111, 46, 46);
+    font-family: monospace;
+    opacity: .7;
+    letter-spacing: -1px;
+}
+
+#notFound>figure>img{
+    width: 100%;
+}

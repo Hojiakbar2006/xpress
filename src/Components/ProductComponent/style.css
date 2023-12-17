@@ -1,0 +1,207 @@
+#BigProduct {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+#Product {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: #ffffff;
+}
+#ProductCards {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding: 0 10%;
+}
+
+#product-card {
+  width: 300px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+#product-card:hover img {
+  transform: scale(1.03);
+}
+
+#product-card > figure {
+  width: 100%;
+  overflow: hidden;
+}
+
+#product-card > figure > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.1s ease-in-out;
+}
+#card > figure > span {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2%;
+}
+#SearchBar {
+  width: 90%;
+  min-height: 150px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(
+    255.02deg,
+    rgba(101, 132, 141, 0.56) 5.93%,
+    rgba(135, 202, 223, 0.56) 23.18%,
+    rgba(112, 134, 141, 0.72) 43.47%,
+    rgba(127, 203, 224, 0.49) 58.21%,
+    rgba(103, 130, 138, 0.57) 73.36%,
+    rgba(144, 207, 224, 0.51) 92.76%
+  );
+
+  margin-top: 50px;
+  border-radius: 24px;
+}
+
+#fromSearch {
+  width: 300px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#fromSearch > input {
+  width: 70%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 3%;
+  outline: none;
+  background: #ffffffb4;
+  border: none;
+}
+#fromSearch > button {
+  width: 40px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  outline: none;
+  border: none;
+  background: none;
+}
+#fromSearch > button > img {
+  width: 100%;
+  height: 100%;
+  background: none;
+}
+#BigSearcProduct {
+  width: 100%;
+  height: 100%;
+  min-height: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5%;
+  margin: 5%;
+}
+#product-card {
+  width: 300px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#product-card > span {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 20px;
+}
+#top {
+  cursor: pointer;
+  position: fixed;
+  right: 5%;
+  bottom: 5%;
+  width: 50px;
+  height: 40px;
+  outline: none;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  font-weight: 700;
+  background: #ddd;
+  font-size: 20px;
+  line-height: 130%;
+  color: rgb(0, 0, 0);
+}
+#Search-bg {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.numbersCard {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.numbersCard > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+
+.pageLink {
+  width: 40px;
+  height: 40px;
+  background: none;
+}
+
+.pageLink :hover{
+  background: #bab8b8;
+}
+
+.pageLink.active {
+  background: #bab8b8;
+}
+@media (max-width: 1000px) {
+  #SearchBar > h1 {
+    font-size: 190%;
+  }
+}

@@ -1,0 +1,92 @@
+#Delivery_store {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 5% 10%;
+    background: #ffffff;
+    font-family: "Gill Sans", sans-serif;
+}
+
+#Delivery_store_Intro {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Delivery_store_right_intro {
+    width: 100%;
+
+}
+
+.Delivery_store_right_intro>img {
+    width: 90%;
+}
+
+.Delivery_store_left_intro {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Delivery_store_left_intro>h4 {
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 26px;
+    color: #171fe5;
+    margin-bottom: 10px;
+}
+
+.Delivery_store_left_intro>h1 {
+    width: 450px;
+    font-weight: 600;
+    font-size: 61px;
+    line-height: 120%;
+    color: #040522;
+}
+
+.Delivery_store_left_intro>p {
+    width: 500px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #040522;
+    margin: 20px 0 120px 0;
+}
+
+
+#BrendsLogos {
+
+    display: flex;
+    flex-direction: row;
+}
+
+#BrendsLogos>a>button {
+    width: 200px;
+    padding: 15px 30px;
+    background: #ff843f;
+    border: none;
+    border-radius: 39px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #040522;
+    cursor: pointer;
+    text-decoration: none;
+
+
+}
+
+#BrendsLogos>:last-child {
+    margin-left: 30px;
+}
+
+#BrendsLogos>a>button>img {
+    width: 15px;
+    margin-right: 7px;
+}
+
+#BrendsLogos>a>button>a {
+    text-decoration: none;
+    color: #040522;
+}

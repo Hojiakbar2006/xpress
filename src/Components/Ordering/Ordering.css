@@ -1,0 +1,48 @@
+#ordering{
+    width: 100%;
+    padding: 2% 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#ordering>h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+#ordering>form{
+    width: 100%;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+#ordering>form>input[type="text"]{
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    background: none;
+    outline: none;
+    padding-left: 30px;
+    background: #65a5c23e;
+    font-size: 18px;
+}
+
+#ordering>form>input[type="submit"]{
+    width: 70%;
+    height: 55px;
+    border-radius:30px;
+    background: #83e1fd;
+    border: none;
+    margin: 20px auto auto;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+}
